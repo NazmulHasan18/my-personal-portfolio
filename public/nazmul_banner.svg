@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#2E89C1;}
+	.st2{fill:#186394;}
+	.st3{fill:#141D46;}
+	.st4{fill:#141420;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="471.3306" y1="207.5339" x2="46.4593" y2="201.8309">
+		<stop  offset="5.347593e-03" style="stop-color:#273DA4"/>
+		<stop  offset="1" style="stop-color:#141D46"/>
+	</linearGradient>
+	<rect x="-68.7" y="23.09" class="st0" width="716" height="364"/>
+	<path class="st1" d="M647.3,23.09H469.04c43.11,30.3,221.6,174.81,12.63,364H647.3V23.09z"/>
+	<path class="st2" d="M647.3,23.09H524.84c34.68,42.23,146.61,208.13-83.31,364H647.3V23.09z"/>
+	<path class="st3" d="M647.3,23.09h-60c20.21,43.15,95.49,248.74-238.85,364H647.3V23.09z"/>
+	<path class="st4" d="M647.3,159.45c-19.48,45.47-95.91,188.91-297.44,227.64H647.3V159.45z"/>
+	<g>
+		<g>
+			<circle class="st5" cx="569.99" cy="318.43" r="1.82"/>
+			<circle class="st5" cx="583.64" cy="318.43" r="1.82"/>
+			<circle class="st5" cx="596.98" cy="318.43" r="1.82"/>
+			<circle class="st5" cx="610.95" cy="318.43" r="1.82"/>
+		</g>
+		<g>
+			<circle class="st5" cx="569.99" cy="335.17" r="1.82"/>
+			<circle class="st5" cx="583.64" cy="335.17" r="1.82"/>
+			<circle class="st5" cx="596.98" cy="335.17" r="1.82"/>
+			<circle class="st5" cx="610.95" cy="335.17" r="1.82"/>
+		</g>
+		<g>
+			<circle class="st5" cx="569.99" cy="351.91" r="1.82"/>
+			<circle class="st5" cx="583.64" cy="351.91" r="1.82"/>
+			<circle class="st5" cx="596.98" cy="351.91" r="1.82"/>
+			<circle class="st5" cx="610.95" cy="351.91" r="1.82"/>
+		</g>
+		<g>
+			<circle class="st5" cx="569.99" cy="368.65" r="1.82"/>
+			<circle class="st5" cx="583.64" cy="368.65" r="1.82"/>
+			<circle class="st5" cx="596.98" cy="368.65" r="1.82"/>
+			<circle class="st5" cx="610.95" cy="368.65" r="1.82"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<circle class="st5" cx="207.04" cy="36.54" r="1.82"/>
+			<circle class="st5" cx="220.69" cy="36.54" r="1.82"/>
+			<circle class="st5" cx="234.03" cy="36.54" r="1.82"/>
+			<circle class="st5" cx="248" cy="36.54" r="1.82"/>
+		</g>
+		<g>
+			<circle class="st5" cx="207.04" cy="53.29" r="1.82"/>
+			<circle class="st5" cx="220.69" cy="53.29" r="1.82"/>
+			<circle class="st5" cx="234.03" cy="53.29" r="1.82"/>
+			<circle class="st5" cx="248" cy="53.29" r="1.82"/>
+		</g>
+		<g>
+			<circle class="st5" cx="207.04" cy="70.03" r="1.82"/>
+			<circle class="st5" cx="220.69" cy="70.03" r="1.82"/>
+			<circle class="st5" cx="234.03" cy="70.03" r="1.82"/>
+			<circle class="st5" cx="248" cy="70.03" r="1.82"/>
+		</g>
+		<g>
+			<circle class="st5" cx="207.04" cy="86.77" r="1.82"/>
+			<circle class="st5" cx="220.69" cy="86.77" r="1.82"/>
+			<circle class="st5" cx="234.03" cy="86.77" r="1.82"/>
+			<circle class="st5" cx="248" cy="86.77" r="1.82"/>
+		</g>
+	</g>
+	<circle class="st6" cx="384.85" cy="109.41" r="12.21"/>
+	<polygon class="st6" points="273.58,202.31 256.92,205.09 246.18,192.05 252.1,176.23 268.77,173.45 279.51,186.49 	"/>
+	<polygon class="st6" points="364.21,180.62 343.57,216.37 384.85,216.37 	"/>
+</g>
+</svg>
