@@ -67,8 +67,43 @@ const Blogs = () => {
                   ),
                },
             ]}
-            className="aspect-[2/1]"
+            className="aspect-[2/1] hidden lg:block
+            "
          ></ParallaxBanner>
+         <div className="inset-0 bg-[#112029] container mx-auto">
+            <div data-aos="fade-up" data-aos-duration="1500">
+               <SectionTitle title="Blogs" text="text-yellow-400" color="white"></SectionTitle>
+               <div className="grid grid-cols-1 px-4 lg:grid-cols-3 gap-8">
+                  <div className="bg-black text-white rounded-xl pb-10">
+                     <img src="https://i.ibb.co/7pJTp87/MERN.png" alt="" className="rounded-lg p-5" />
+                     <h2 className="text-3xl px-5 font-semibold mb-3">What is MERN?</h2>
+                     <p className="p-6 pt-0">
+                        Let&rsquo;s learn something about MERN. The MERN stack is a powerful and efficient
+                        technology stack for developing dynamic web applications. MERN stands for MongoDB,
+                        Express.js, React, and Node.js, developers can create feature-rich, scalable, and
+                        high-performance applications. The MERN stack&rsquo;s ... <br />
+                        <button className="btn btn-link" onClick={() => window.my_modal_1.showModal()}>
+                           Read More
+                        </button>
+                     </p>
+                  </div>
+                  <div className="bg-white text-black rounded-xl">
+                     <img src="https://i.ibb.co/CQ50s0Q/Nextjs.jpg" alt="" className="rounded-lg p-5" />
+                     <h2 className="text-3xl px-5 font-semibold mb-3">Why I love learning?</h2>
+                     <p className="p-6 pt-0">
+                        I always love to live as alive not as a lazy person. And I belive exploring new
+                        technologies makes you alive. When I cam to connect with new technologies, it always
+                        gives me pain. But there goes a proverb- &rdquo;No pain, No gain.&rdquo;. At the end
+                        of the day, this pain gives me a gain. I become able to use new technology, add new
+                        technology to my skill, and build a new ... <br />
+                        <button className="btn btn-link" onClick={() => window.my_modal_2.showModal()}>
+                           Read More
+                        </button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
          <div>
             <dialog id="my_modal_1" className="modal">
                <form method="dialog" className="modal-box">

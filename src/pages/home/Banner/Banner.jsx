@@ -11,13 +11,13 @@ const Banner = () => {
          className="mt-10 bg-no-repeat relative bg-cover"
          style={{ backgroundImage: "url('https://i.ibb.co/W5CkMqK/Nazmul-Hasan-01.png')" }}
       >
-         <div className="pt-10 text-white px-4 lg:px-20 flex items-center justify-between bottom-0 container mx-auto">
-            <div className="w-screen h-full space-y-4">
-               <h3 className="lg:text-5xl font-bold" data-aos="fade-right" data-aos-duration="1500">
+         <div className="pt-10 text-white px-4 lg:px-20 flex flex-col-reverse lg:flex-row items-center justify-between bottom-0 container mx-auto">
+            <div className="w-screen h-full space-y-4 p-6 lg:p-0">
+               <h3 className="lg:text-5xl text-xl font-bold" data-aos="fade-right" data-aos-duration="1500">
                   Hi! I am
                </h3>
                <h1
-                  className="lg:text-8xl text-2xl font-extrabold font-script animate-character"
+                  className="lg:text-8xl text-4xl font-extrabold font-script animate-character"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                   data-aos-delay="300"
@@ -58,7 +58,12 @@ const Banner = () => {
                   skills and projects.
                   <span>Never Judge a book by it&rsquo;s cover.</span>
                </p>
-               <div className="banner" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">
+               <div
+                  className="banner space-y-5"
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                  data-aos-delay="1200"
+               >
                   <AwesomeButton
                      href="https://drive.google.com/file/d/1CyOsE3qHuPeFx_NKKx8psKmJ-G2KanCz/view?usp=sharing"
                      type="primary"
@@ -74,7 +79,7 @@ const Banner = () => {
             <img
                src="./nazmul.png"
                alt=""
-               className="h-[200px] lg:h-[830px] pt-10"
+               className="w-[300px] lg:h-[830px] pt-10"
                data-aos="zoom-in"
                data-aos-duration="1500"
             />

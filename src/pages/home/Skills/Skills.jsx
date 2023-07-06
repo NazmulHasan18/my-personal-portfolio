@@ -18,10 +18,10 @@ const Skills = () => {
          <div data-aos="fade-up" data-aos-duration="1500">
             <SectionTitle title="Skills" text="text-blue-500"></SectionTitle>
 
-            <div className="container mx-auto pb-16 gap-10 grid lg:grid-cols-3">
+            <div className="container mx-auto pb-16 px-6 lg:px-0 gap-10 grid lg:grid-cols-3">
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -41,7 +41,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -61,7 +61,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -81,7 +81,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -101,7 +101,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -121,7 +121,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -141,7 +141,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -161,7 +161,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"
@@ -181,7 +181,7 @@ const Skills = () => {
                </Tilt>
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
-                     className="p-6 box rounded-2xl h-64 bg-white flex gap-5 items-center text-black"
+                     className="p-6 box rounded-2xl lg:h-64 bg-white flex flex-col lg:flex-row gap-5 items-center text-black"
                      data-aos="zoom-in"
                      data-aos-delay="500"
                      data-aos-duration="1500"

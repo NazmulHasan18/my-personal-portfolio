@@ -5,7 +5,7 @@ import { FaArrowRight, FaLink } from "react-icons/fa";
 
 const Projects = () => {
    return (
-      <section className="projects bg-[#000033] pb-16" id="projects">
+      <section className="projects bg-[#000033] px-2 lg:px-0 pb-16" id="projects">
          <div className="container mx-auto" data-aos="fade-up" data-aos-duration="1500">
             <SectionTitle
                title="Projects"
@@ -14,9 +14,11 @@ const Projects = () => {
                subtitle="Hover Project and watch magic."
             ></SectionTitle>
 
-            <div className="grid grid-cols-2 justify-between">
+            <div className="grid lg:grid-cols-2 justify-between">
                <div className="w-fit">
-                  <h2 className="text-5xl text-white font-semibold mb-5">Translingua Institute</h2>
+                  <h2 className="text-2xl lg:text-5xl text-white font-semibold mb-5">
+                     Translingua Institute
+                  </h2>
                   <div
                      className="box group rounded-lg"
                      style={{ backgroundImage: "url('https://i.ibb.co/HpFTRjf/Translingua.jpg')" }}
@@ -43,7 +45,7 @@ const Projects = () => {
                         </ol>
                      </div>
                   </div>
-                  <div className="project w-[680px] py-10 flex justify-between items-center">
+                  <div className="project lg:w-[680px] py-10 flex flex-col-reverse lg:flex-row gap-5 justify-between items-center">
                      <AwesomeButton
                         type="primary"
                         after={<FaLink />}
@@ -68,7 +70,7 @@ const Projects = () => {
                   </div>
                </div>
                <div className="w-fit">
-                  <h2 className="text-5xl text-white font-semibold mb-5">Taste Haven</h2>
+                  <h2 className="text-2xl lg:text-5xl text-white font-semibold mb-5">Taste Haven</h2>
                   <div
                      className="box group rounded-lg"
                      style={{ backgroundImage: "url('https://i.ibb.co/ngjhQHB/Taste-haven.jpg')" }}
@@ -95,7 +97,7 @@ const Projects = () => {
                         </ol>
                      </div>
                   </div>
-                  <div className="project w-[680px] py-10 flex justify-between items-center">
+                  <div className="project lg:w-[680px] py-10 flex flex-col-reverse lg:flex-row gap-5 justify-between items-center">
                      <AwesomeButton
                         type="primary"
                         after={<FaLink />}
@@ -120,7 +122,7 @@ const Projects = () => {
                   </div>
                </div>
                <div className="w-fit">
-                  <h2 className="text-5xl text-white font-semibold mb-5">Tiny Driver Toy</h2>
+                  <h2 className="text-2xl lg:text-5xl text-white font-semibold mb-5">Tiny Driver Toy</h2>
                   <div
                      className="box group rounded-lg"
                      style={{ backgroundImage: "url('https://i.ibb.co/tDQhBk8/Tiny-Driver-Toy.jpg')" }}
@@ -147,7 +149,7 @@ const Projects = () => {
                         </ol>
                      </div>
                   </div>
-                  <div className="project w-[680px] py-10 flex justify-between items-center">
+                  <div className="project lg:w-[680px] py-10 flex flex-col-reverse lg:flex-row gap-5 justify-between items-center">
                      <AwesomeButton type="primary" after={<FaLink />} href="https://tiny-driver-toy.web.app/">
                         Live Site
                      </AwesomeButton>
@@ -168,7 +170,7 @@ const Projects = () => {
                   </div>
                </div>
                <div className="w-fit">
-                  <h2 className="text-5xl text-white font-semibold mb-5">Developers Job</h2>
+                  <h2 className="text-2xl lg:text-5xl text-white font-semibold mb-5">Developers Job</h2>
                   <div
                      className="box group rounded-lg"
                      style={{
@@ -198,7 +200,7 @@ const Projects = () => {
                         </ol>
                      </div>
                   </div>
-                  <div className="project w-[680px] py-10 flex justify-between items-center">
+                  <div className="project lg:w-[680px] py-10 flex flex-col-reverse lg:flex-row gap-5 justify-between items-center">
                      <AwesomeButton
                         type="primary"
                         after={<FaLink />}

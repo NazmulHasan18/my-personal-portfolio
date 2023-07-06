@@ -1,11 +1,11 @@
 const SectionTitle = ({ title, text, color, subtitle }) => {
    return (
       <div className="mx-auto w-fit py-16 text-center">
-         <h2 className="text-7xl font-semibold" style={{ color: `${color}` }}>
+         <h2 className="lg:text-7xl text-5xl font-semibold" style={{ color: `${color}` }}>
             My <span className={`drop-shadow-md ${text}`}>{title}</span>
          </h2>
          <span
-            className={`relative overflow-hidden inline-block h-2 w-[28rem] bg-primary rounded-full bg-opacity-25`}
+            className={`relative overflow-hidden inline-block h-2 w-[18rem] lg:w-[28rem] bg-primary rounded-full bg-opacity-25`}
          >
             <span
                className={`absolute left-0 top-0 inline-block h-full w-3 animate-lefttoright rounded-full bg-white`}

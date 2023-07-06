@@ -5,12 +5,12 @@ const About = () => {
    return (
       <section id="about" className="bg-gray-950 py-10 ">
          <div className="container mx-auto" data-aos="fade-up" data-aos-duration="1500">
-            <h2 className="uppercase text-6xl text-blue-500 mx-auto border-white border-b-4 w-fit">
+            <h2 className="uppercase text-4xl lg:text-6xl text-blue-500 mx-auto border-white border-b-4 w-fit">
                About Me
             </h2>
 
-            <div className="flex my-10 lg:gap-10 px-16 items-center">
-               <div className="text-center about">
+            <div className="flex flex-col lg:flex-row my-10 lg:gap-10 px-4 lg:px-16 items-center">
+               <div className="text-center about mb-4">
                   <img
                      src="./nazmul2.png"
                      alt=""
@@ -21,11 +21,11 @@ const About = () => {
                   </AwesomeButton>
                </div>
                <div className="text-white w-full">
-                  <h2 className="text-4xl w-2/3 font-semibold text-pink-700">
+                  <h2 className="text-2xl lg:text-4xl lg:w-2/3 font-semibold text-pink-700">
                      Passionate MERN Developer | Committed to Delivering Excellence
                   </h2>
 
-                  <div className="bg-gray-500 px-14 text-lg rounded-lg py-12 mt-9">
+                  <div className="bg-gray-500 px-6 lg:px-14 text-lg rounded-lg py-12 mt-9">
                      <p>
                         Welcome to my portfolio! I&rsquo;m Nazmul Hasan Shanto, a dedicated web developer
                         specialized in the MERN stack. With 6 months of comprehensive training and a 98%

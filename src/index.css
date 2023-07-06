@@ -158,3 +158,12 @@ html {
    background-color: #4070f4;
    transform: translateX(-50%) rotate(45deg);
 }
+
+@media screen and (max-width: 600px) {
+   .skill-box .title {
+      display: block;
+      font-size: 30px;
+      font-weight: 600;
+      color: #000;
+   }
+}

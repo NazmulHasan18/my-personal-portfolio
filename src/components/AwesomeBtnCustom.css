@@ -39,3 +39,9 @@
    --button-danger-color-active: #af2929;
    --button-danger-border: none;
 }
+@media screen and (max-width: 600px) {
+   .banner .aws-btn {
+      --button-default-height: 50px;
+      --button-default-font-size: 18px;
+   }
+}

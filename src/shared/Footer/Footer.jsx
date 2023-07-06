@@ -2,11 +2,11 @@ import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaWhatsappSquare } from 
 
 const Footer = () => {
    return (
-      <footer className="footer p-10 bg-black text-lg font-semibold grid-cols-8 text-neutral-content">
+      <footer className="footer p-10 bg-black text-lg font-semibold grid-cols-1 lg:grid-cols-8 text-neutral-content">
          <div className="col-span-2">
             <img src="./logpNaz.PNG" alt="Nazmul" className="w-40" />
             <p>Copyright © 2023 - All right reserved</p>
-         </div>{" "}
+         </div>
          <div>
             <span className="footer-title">Portfolio</span>
             <a className="link link-hover">Home</a>
