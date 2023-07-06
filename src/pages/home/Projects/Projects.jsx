@@ -6,7 +6,7 @@ import { FaArrowRight, FaLink } from "react-icons/fa";
 const Projects = () => {
    return (
       <section className="projects bg-[#000033] pb-16" id="projects">
-         <div className="container mx-auto">
+         <div className="container mx-auto" data-aos="fade-up" data-aos-duration="1500">
             <SectionTitle
                title="Projects"
                text="text-white"
@@ -217,7 +217,7 @@ const Projects = () => {
                </div>
             </div>
             <div className="w-fit mx-auto mt-5 see-more">
-               <AwesomeButton type="primary" after={<FaArrowRight />}>
+               <AwesomeButton type="secondary" after={<FaArrowRight />}>
                   See More
                </AwesomeButton>
             </div>
