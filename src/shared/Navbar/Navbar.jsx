@@ -1,3 +1,5 @@
+import { FaEye } from "react-icons/fa";
+
 const Navbar = () => {
    const navLink = (
       <>
@@ -32,9 +34,13 @@ const Navbar = () => {
             </a>
          </li>
          <li data-to-scrollspy-id="contacts">
-            <a href="#contacts">
-               <button className="btn btn-xs sm:btn-sm md:btn-md btn-outline btn-secondary rounded-none">
-                  View Resume
+            <a
+               href="https://drive.google.com/file/d/1CyOsE3qHuPeFx_NKKx8psKmJ-G2KanCz/view?usp=sharing"
+               rel="noreferrer"
+               target="_blank"
+            >
+               <button className="btn btn-xs sm:btn-sm md:btn-md btn-outline btn-secondary rounded-none group duration-300 text-xl">
+                  View Resume <FaEye className="hidden group-hover:block"></FaEye>
                </button>
             </a>
          </li>
