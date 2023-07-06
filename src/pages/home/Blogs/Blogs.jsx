@@ -3,7 +3,7 @@ import SectionTitle from "../../../shared/SectionTitle/SectionTitle";
 
 const Blogs = () => {
    return (
-      <section id="blogs">
+      <section id="blogs" className="h-full">
          <ParallaxBanner
             layers={[
                {

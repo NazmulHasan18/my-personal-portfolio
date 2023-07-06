@@ -34,7 +34,7 @@ const Navbar = () => {
                Contacts
             </a>
          </li>
-         <li data-to-scrollspy-id="contacts">
+         <li>
             <AwesomeButton
                type="secondary"
                after={<FaEye />}
