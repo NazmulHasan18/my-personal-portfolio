@@ -1,6 +1,8 @@
+import { AwesomeButton } from "react-awesome-button";
 import { FaDownload } from "react-icons/fa";
 import { IoCallSharp } from "react-icons/io5";
 import { Typewriter } from "react-simple-typewriter";
+import "../../../components/AwesomeBtnCustom.css";
 
 const Banner = () => {
    return (
@@ -9,7 +11,7 @@ const Banner = () => {
          className="mt-10 bg-no-repeat relative bg-cover"
          style={{ backgroundImage: "url('https://i.ibb.co/W5CkMqK/Nazmul-Hasan-01.png')" }}
       >
-         <div className="pt-10 text-white px-4 lg:px-20 flex items-center justify-between bottom-0">
+         <div className="pt-10 text-white px-4 lg:px-20 flex items-center justify-between bottom-0 container mx-auto">
             <div className="w-screen h-full space-y-4">
                <h3 className="lg:text-5xl font-bold" data-aos="fade-right" data-aos-duration="1500">
                   Hi! I am
@@ -28,7 +30,7 @@ const Banner = () => {
                   data-aos-duration="1500"
                   data-aos-delay="600"
                >
-                  I am a{" "}
+                  I am a <br />
                   <span className="text-yellow-500">
                      <Typewriter
                         words={[
@@ -56,15 +58,17 @@ const Banner = () => {
                   skills and projects.
                   <span>Never Judge a book by it&rsquo;s cover.</span>
                </p>
-               <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">
-                  <button className="btn text-white mr-6 hover:bg-pink-700 btn-outline lg:text-xl border-purple-700">
-                     View Resume <FaDownload></FaDownload>
-                  </button>
-                  <a href="#contacts">
-                     <button className="btn text-white mr-6 border-pink-700 hover:bg-purple-700 btn-outline lg:text-xl">
-                        Contact Me <IoCallSharp></IoCallSharp>
-                     </button>
-                  </a>
+               <div className="banner" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">
+                  <AwesomeButton
+                     href="https://drive.google.com/file/d/1CyOsE3qHuPeFx_NKKx8psKmJ-G2KanCz/view?usp=sharing"
+                     type="primary"
+                     before={<FaDownload />}
+                  >
+                     View Resume
+                  </AwesomeButton>
+                  <AwesomeButton href="#contacts" type="secondary" before={<IoCallSharp />}>
+                     Contact Me
+                  </AwesomeButton>
                </div>
             </div>
             <img

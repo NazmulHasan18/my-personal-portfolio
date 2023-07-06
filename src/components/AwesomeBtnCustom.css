@@ -1,0 +1,41 @@
+.banner .aws-btn {
+   --button-default-height: 50px;
+   --button-default-font-size: 18px;
+   --button-default-border-radius: 6px;
+   --button-horizontal-padding: 16px;
+   --button-raise-level: 4px;
+   --button-hover-pressure: 1;
+   --transform-speed: 0.15s;
+   --button-primary-color: #f50029;
+   --button-primary-color-dark: #a70c26;
+   --button-primary-color-light: #ffffff;
+   --button-primary-color-hover: #d8203e;
+   --button-primary-color-active: #860f23;
+   --button-primary-border: none;
+   margin-right: 20px;
+}
+.banner .aws-btn {
+   --button-secondary-color: #fda3fd;
+   --button-secondary-color-dark: #8f008f;
+   --button-secondary-color-light: #520652;
+   --button-secondary-color-hover: #ffa3ff;
+   --button-secondary-color-active: #ffa3ff;
+   --button-secondary-border: none;
+   font-weight: 600;
+}
+.about .aws-btn {
+   margin-top: 20px;
+   --button-default-height: 50px;
+   --button-default-font-size: 20px;
+   --button-default-border-radius: 6px;
+   --button-horizontal-padding: 16px;
+   --button-raise-level: 4px;
+   --button-hover-pressure: 1;
+   --transform-speed: 0.15s;
+   --button-danger-color: yellow;
+   --button-danger-color-dark: #888800;
+   --button-danger-color-light: black;
+   --button-danger-color-hover: #c9c900;
+   --button-danger-color-active: #af2929;
+   --button-danger-border: none;
+}

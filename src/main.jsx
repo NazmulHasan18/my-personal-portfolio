@@ -4,6 +4,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Main from "./layouts/Main";
 import Home from "./pages/home/Home/Home";
+import "react-awesome-button/dist/styles.css";
 
 const router = createBrowserRouter([
    {
