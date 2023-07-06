@@ -1,8 +1,8 @@
 const Blogs = () => {
    return (
-      <div>
+      <section id="blogs">
          <h2>My Blogs</h2>
-      </div>
+      </section>
    );
 };
 

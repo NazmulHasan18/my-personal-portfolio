@@ -6,7 +6,7 @@ import "../../../components/AwesomeBtnCustom.css";
 
 const Banner = () => {
    return (
-      <div
+      <section
          id="home"
          className="mt-10 bg-no-repeat relative bg-cover"
          style={{ backgroundImage: "url('https://i.ibb.co/W5CkMqK/Nazmul-Hasan-01.png')" }}
@@ -79,7 +79,7 @@ const Banner = () => {
                data-aos-duration="1500"
             />
          </div>
-      </div>
+      </section>
    );
 };
 

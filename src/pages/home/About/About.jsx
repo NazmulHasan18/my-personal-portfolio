@@ -3,7 +3,7 @@ import { FaHandshake } from "react-icons/fa";
 
 const About = () => {
    return (
-      <div id="about" className="bg-gray-950 py-10 ">
+      <section id="about" className="bg-gray-950 py-10 ">
          <div className="container mx-auto" data-aos="fade-up" data-aos-duration="1500">
             <h2 className="uppercase text-6xl text-blue-500 mx-auto border-white border-b-4 w-fit">
                About Me
@@ -60,7 +60,7 @@ const About = () => {
                </div>
             </div>
          </div>
-      </div>
+      </section>
    );
 };
 

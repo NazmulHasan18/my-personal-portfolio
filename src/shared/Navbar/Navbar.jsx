@@ -1,3 +1,4 @@
+import { AwesomeButton } from "react-awesome-button";
 import { FaEye } from "react-icons/fa";
 
 const Navbar = () => {
@@ -34,15 +35,13 @@ const Navbar = () => {
             </a>
          </li>
          <li data-to-scrollspy-id="contacts">
-            <a
+            <AwesomeButton
+               type="secondary"
+               after={<FaEye />}
                href="https://drive.google.com/file/d/1CyOsE3qHuPeFx_NKKx8psKmJ-G2KanCz/view?usp=sharing"
-               rel="noreferrer"
-               target="_blank"
             >
-               <button className="btn btn-xs sm:btn-sm md:btn-md btn-outline btn-secondary rounded-none group duration-300 text-xl">
-                  View Resume <FaEye className="hidden group-hover:block"></FaEye>
-               </button>
-            </a>
+               View Resume <FaEye className="hidden group-hover:block"></FaEye>
+            </AwesomeButton>
          </li>
       </>
    );

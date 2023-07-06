@@ -1,0 +1,20 @@
+.projects .box {
+   height: 600px;
+   width: 680px;
+   background-position: top;
+   transition: ease-in-out 8s;
+   background-size: cover;
+}
+
+.projects .box:hover {
+   background-position: bottom;
+}
+.project .aws-btn--github {
+   font-size: 18px;
+}
+.project .aws-btn {
+   font-size: 18px;
+}
+.see-more .aws-btn {
+   font-size: 20px;
+}

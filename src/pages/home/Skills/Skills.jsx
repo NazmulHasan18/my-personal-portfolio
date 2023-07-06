@@ -10,19 +10,14 @@ import icon8 from "../../../assets/icons/css.gif";
 import icon9 from "../../../assets/icons/github.gif";
 import { AwesomeButton } from "react-awesome-button";
 import { FaDownload } from "react-icons/fa";
+import SectionTitle from "../../../shared/SectionTitle/SectionTitle";
 
 const Skills = () => {
    return (
-      <div id="skills" className="bg-gray-100">
+      <section id="skills" className="bg-gray-100">
          <div data-aos="fade-up" data-aos-duration="1500">
-            <div className="mx-auto w-fit py-16 text-center">
-               <h2 className="text-7xl font-semibold">
-                  My <span className="drop-shadow-md text-blue-500">Skills</span>
-               </h2>
-               <span className="relative overflow-hidden inline-block h-2 w-96 bg-primary rounded-full bg-opacity-25">
-                  <span className="absolute left-0 top-0 inline-block h-full w-3 animate-lefttoright rounded-full bg-gray-700"></span>
-               </span>
-            </div>
+            <SectionTitle title="Skills" text="text-blue-500"></SectionTitle>
+
             <div className="container mx-auto pb-16 gap-10 grid lg:grid-cols-3">
                <Tilt tiltMaxAngleY={5} tiltMaxAngleX={5} scale={1.1}>
                   <div
@@ -215,7 +210,7 @@ const Skills = () => {
                </AwesomeButton>
             </div>
          </div>
-      </div>
+      </section>
    );
 };
 
