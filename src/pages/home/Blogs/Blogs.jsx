@@ -70,7 +70,7 @@ const Blogs = () => {
             className="aspect-[2/1] hidden lg:block
             "
          ></ParallaxBanner>
-         <div className="inset-0 bg-[#112029] container mx-auto">
+         <div className="inset-0 bg-[#112029] lg:hidden container mx-auto">
             <div data-aos="fade-up" data-aos-duration="1500">
                <SectionTitle title="Blogs" text="text-yellow-400" color="white"></SectionTitle>
                <div className="grid grid-cols-1 px-4 lg:grid-cols-3 gap-8">

@@ -79,7 +79,7 @@ const Banner = () => {
             <img
                src="./nazmul.png"
                alt=""
-               className="w-[300px] lg:h-[830px] pt-10"
+               className="w-[300px] lg:w-auto lg:h-[830px] pt-10"
                data-aos="zoom-in"
                data-aos-duration="1500"
             />

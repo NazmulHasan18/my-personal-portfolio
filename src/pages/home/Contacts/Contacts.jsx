@@ -23,7 +23,7 @@ const Contacts = () => {
                text="text-gray-300"
                color="gray"
             ></SectionTitle>
-            <div className="flex flex-col justify-between items-center gap-10 pb-12">
+            <div className="flex flex-col lg:flex-row justify-between items-center gap-10 pb-12">
                <div className="lg:w-2/3">
                   <form onSubmit={handleSubmit}>
                      <div className="card-body p-0">
