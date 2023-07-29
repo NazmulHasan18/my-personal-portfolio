@@ -52,11 +52,32 @@ const Blogs = () => {
                                  new technologies makes you alive. When I cam to connect with new
                                  technologies, it always gives me pain. But there goes a proverb- &rdquo;No
                                  pain, No gain.&rdquo;. At the end of the day, this pain gives me a gain. I
-                                 become able to use new technology, add new technology to my skill, and build
-                                 a new ... <br />
+                                 become able to use new technology ... <br />
                                  <button
                                     className="btn btn-link"
                                     onClick={() => window.my_modal_2.showModal()}
+                                 >
+                                    Read More
+                                 </button>
+                              </p>
+                           </div>
+                           <div className="bg-white text-black rounded-xl">
+                              <img
+                                 src="https://i.ibb.co/kgBRdV7/react.jpg"
+                                 alt=""
+                                 className="rounded-lg p-5 h-72 mx-auto"
+                              />
+                              <h2 className="text-3xl px-5 font-semibold mb-3">Top 5 interview questions.</h2>
+                              <p className="p-6 pt-0">
+                                 1. What is React?
+                                 <br />
+                                 {"=>"}React is a front-end javascript-based library developed by Facebook in
+                                 2011. It can reuse the components. It is used for complex user interactive
+                                 websites and it has built a large community as an open source. <br /> 2. What
+                                 are the features of React? .. <br />
+                                 <button
+                                    className="btn btn-link"
+                                    onClick={() => window.my_modal_3.showModal()}
                                  >
                                     Read More
                                  </button>
@@ -94,9 +115,26 @@ const Blogs = () => {
                         I always love to live as alive not as a lazy person. And I belive exploring new
                         technologies makes you alive. When I cam to connect with new technologies, it always
                         gives me pain. But there goes a proverb- &rdquo;No pain, No gain.&rdquo;. At the end
-                        of the day, this pain gives me a gain. I become able to use new technology, add new
-                        technology to my skill, and build a new ... <br />
+                        of the day, this pain gives me a gain. ... <br />
                         <button className="btn btn-link" onClick={() => window.my_modal_2.showModal()}>
+                           Read More
+                        </button>
+                     </p>
+                  </div>
+                  <div className="bg-white text-black rounded-xl">
+                     <img src="https://i.ibb.co/kgBRdV7/react.jpg" alt="" className="rounded-lg p-5" />
+                     <h2 className="text-3xl px-5 font-semibold mb-3">Top 5 interview questions.</h2>
+                     <p className="p-6 pt-0">
+                        1. What is React?
+                        <br />
+                        {"=>"}React is a front-end javascript-based library developed by Facebook in 2011. It
+                        can reuse the components. It is used for complex user interactive websites and it has
+                        built a large community as an open source.
+                        <br /> 2. What are the features of React?
+                        <br />
+                        {"=>"}There are so many features in React. Some of them are mentioned below. JSX: ...{" "}
+                        <br />
+                        <button className="btn btn-link" onClick={() => window.my_modal_3.showModal()}>
                            Read More
                         </button>
                      </p>
@@ -150,6 +188,50 @@ const Blogs = () => {
                      technology to my skill, and build a new experience with technology. I feel from the heart
                      that we should never stop learning and worrying about new tech, It makes you alive and
                      keeps you alive.
+                  </p>
+                  <div className="modal-action">
+                     <button className="btn">Close</button>
+                  </div>
+               </form>
+            </dialog>
+            <dialog id="my_modal_3" className="modal">
+               <form method="dialog" className="modal-box">
+                  <img src="https://i.ibb.co/kgBRdV7/react.jpg" alt="" />
+                  <h3 className="font-bold text-xl">Top 5 interview questions.</h3>
+                  <p className="py-4">
+                     1. What is React?
+                     <br />
+                     {"=>"}React is a front-end javascript-based library developed by Facebook in 2011. It can
+                     reuse the components. It is used for complex user interactive websites and it has built a
+                     large community as an open source. <br /> 2. What are the features of React?
+                     <br />
+                     {"=>"}There are so many features in React. Some of them are mentioned below. JSX: Using
+                     JSX we can write html code within javascript and easily manage the code and what it
+                     should look like. Components: React is a component base library where we can make an easy
+                     part of a website in components and can use it where we need it. Virtual DOM: React made
+                     its virtual dom to make the data management system so easy and wiser. To manage the code
+                     easily. One-way data building: One-way data building structure made react js more
+                     powerful was react flow the one direction by using react one way data building it renders
+                     in ui very fast and we have to nest components under parents components. And so on.
+                     <br /> 3. What is the difference between Real DOM and Virtual DOM?
+                     <br />
+                     {"=>"}There are many differences between real and virtual doms. Some of them are
+                     mentioned below. Real dom update is slow but virtual dom update fast. Real Dom creates a
+                     new dom if an element is created but virtual Dom just updates specific changed part Real
+                     Dom uses too much memory but virtual Dom done Dom manipulation was so expensive in real
+                     dom but it is very easy. And So on.
+                     <br /> 4. What are the limitations of React?
+                     <br />
+                     {"=>"} Though React is so much helpful for a user but it also has some limitations. React
+                     is just a library, not a full-blown framework Its library is very large and takes time to
+                     understand It can be a little difficult for novice programmers to understand Coding gets
+                     complex as it uses inline templating and JSX
+                     <br /> 5. What is the virtual DOM?
+                     <br />
+                     {"=>"} Virtual DOM means Virtual Document Object Model. That means Dom change will happen
+                     but virtually not really. Virtual dom detects where the changes happen in UI and Real Dom
+                     can’t detect the specific change virtual dom after changing details. Command the real dom
+                     that this part of UI is changed.
                   </p>
                   <div className="modal-action">
                      <button className="btn">Close</button>

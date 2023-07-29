@@ -1,5 +1,5 @@
 import { AwesomeButton } from "react-awesome-button";
-import { FaEye } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 
 const Navbar = () => {
    const navLink = (
@@ -37,10 +37,10 @@ const Navbar = () => {
          <li>
             <AwesomeButton
                type="secondary"
-               after={<FaEye />}
-               href="https://drive.google.com/file/d/1CyOsE3qHuPeFx_NKKx8psKmJ-G2KanCz/view?usp=sharing"
+               after={<FaDownload />}
+               href="https://drive.google.com/u/0/uc?id=1CyOsE3qHuPeFx_NKKx8psKmJ-G2KanCz&export=download"
             >
-               View Resume <FaEye className="hidden group-hover:block"></FaEye>
+               Resume
             </AwesomeButton>
          </li>
       </>
